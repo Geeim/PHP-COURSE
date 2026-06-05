@@ -16,11 +16,9 @@ class User {
    }
 
 }
-
-
-
 $user1 = new User();
 $user1->grade = 85; // MM SET value
 echo $user1->grade; // GET value
+echo "<br>";
 
 ?>
